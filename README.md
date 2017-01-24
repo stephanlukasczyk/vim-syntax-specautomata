@@ -3,8 +3,8 @@
 This plugin provides custom syntax highlighting for the specification automata
 used in [CPAchecker](https://cpachecker.sosy-lab.org).
 
-The easiest way to install is using [vundle](https://github.com/gmaric/vundle).
-Just add
+The easiest way to install is using
+[vundle](https://github.com/VundleVim/Vundle.vim).  Just add
 
 ```vim
 Plugin 'stephanlukasczyk/vim-syntax-specautomata'
