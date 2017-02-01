@@ -10,7 +10,7 @@ The easiest way to install is using
 Plugin 'stephanlukasczyk/vim-syntax-specautomata'
 ```
 
-to your `.vimrc`.  To get the completion working add those further lines
+to your `.vimrc`.  To get the completion working it might be necessary to add those further lines
 
 ```vim
 au BufNewFile,BufRead *.spc set filetype=vim-syntax-specautomata
