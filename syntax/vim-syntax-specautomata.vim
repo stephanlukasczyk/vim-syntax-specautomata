@@ -20,8 +20,8 @@ if exists("b:current_syntax")
 endif
 
 syn keyword basicKeywords OBSERVER CONTROL AUTOMATON INITIAL STATE USEALL END
-syn keyword triggerKeywords TRUE FALSE EXCLAMATION MATCH CALL RETURN LABEL ASSERT ASSUME ENTRY EXIT
-syn keyword actionKeywords GOTO ERROR SPLIT NEGATION DO PRINT MODIFY ENCODE SUCC
+syn keyword triggerKeywords TRUE FALSE EXCLAMATION MATCH CALL RETURN LABEL ENTRY EXIT
+syn keyword actionKeywords GOTO ERROR SPLIT NEGATION DO PRINT MODIFY ENCODE SUCC ASSERT ASSUME
 
 syn region comment start="//" skip="\\$" end="$"
 syn match operator "->"
